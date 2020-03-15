@@ -1,0 +1,50 @@
+.card {
+  padding: 5px;
+  margin-top: 20px;
+  background-color: orange;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.card-logo {
+  align-self: flex-start;
+}
+
+.card-logo > img {
+  width: 50px;
+}
+
+.card-title {
+  width: 80%;
+  align-self: center;
+  font-size: 1.7em;
+  color: #FFF;
+}
+
+.card-author {
+  padding-left: 10px;
+  align-self: flex-end;
+  background-color: #FFF;
+  color: orange;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.author-img {
+  float: right;
+  width: 40px;
+  margin: 3px;
+  margin-left: 10px;
+}
+
+.name {
+  display: inline-block;
+  padding-top: 10px;
+}

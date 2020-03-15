@@ -2,6 +2,7 @@ import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import "./App.css";
 import { item } from "./static-data";
+import Card from "./Card";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             }
           </span>
         </div>
+        <Card item={item} />
       </div>
     </div>
   );
