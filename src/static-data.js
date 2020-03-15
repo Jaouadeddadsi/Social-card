@@ -1,7 +1,6 @@
 const item = {
-  logo_url:
-    "https://imgplaceholder.com/100x100/000/fff?text=DEV&font-size=30&font-family=CaviarDreams_Bold",
-  user_name: "The Practical Dev",
+  logo_url: "https://i.ibb.co/cDR3Nwd/dev.png",
+  community: "The Practical Dev",
   submit_date: "Sep 10",
   title: "Learning React? Start Small.",
   author: "Dave Ceddia",

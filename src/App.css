@@ -5,4 +5,45 @@
 .app {
   max-width: 800px;
   margin:30px auto;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.logo {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.logo-img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.content {
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+
+.arrow {
+  float: right;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.community {
+  font-weight: bold;
+}
+.date{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+  display: block;
+  margin-top: .5em;
+}
+.author {
+  display: block;
+  margin-top: .5em;
 }
