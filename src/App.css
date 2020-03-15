@@ -47,3 +47,20 @@
   display: block;
   margin-top: .5em;
 }
+
+.description {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.dec-title {
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.url {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}

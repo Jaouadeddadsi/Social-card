@@ -3,6 +3,7 @@ import "font-awesome/css/font-awesome.min.css";
 import "./App.css";
 import { item } from "./static-data";
 import Card from "./Card";
+import Action from "./Action";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             @{item.community.replace(/\s+/g, "")} . {item.submit_date}
           </span>
           <span className="arrow">
-            <i class="fa fa-angle-down"></i>
+            <i className="fa fa-angle-down"></i>
           </span>
           <br />
           <span className="title">{item.title}</span>
@@ -30,6 +31,15 @@ function App() {
           </span>
         </div>
         <Card item={item} />
+
+        <div className="description">
+          <span className="dec-title">{item.title}</span>
+          <br />
+          <span className="description-par">{item.description}</span>
+          <br />
+          <span className="url">{item.url}</span>
+        </div>
+        <Action item={item} />
       </div>
     </div>
   );
